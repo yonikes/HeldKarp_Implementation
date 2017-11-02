@@ -1,9 +1,8 @@
 import java.util.HashSet;
 
+ /* A class representing Best(x,{s}) for a given x and {s} - the building block of the algorythm */
 public class HeldKarp_SubSolution {
-    /* A class representing Best(x,{s}) for a given x and {s} - the building block of the algorythm */
-
-
+  
         public int last_visited_city;
         public HashSet<Integer> cities; /* we can use a TreeSet and then enumerate according to the ordering of numbers in S, but it doesn't really help, so better to use the faster hashSet */
         public int shortest_path;
