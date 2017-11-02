@@ -7,7 +7,8 @@ public class HeldKarp_Implementation {
 
     public static void main (String[] args) {
 
-        //input is in the form of a matrix which can be looked at as a directional graph, where matrix[i][j] is the cost of travelling from i to j
+        //input is in the form of a matrix which can be looked at as a directional graph, where
+        //matrix[i][j] is the cost of travelling from i to j
         int n = 4;
         int[][]graph =  {   {0, 2000, 6000, 7000},
                             {3000, 0, 8000, 3000},
